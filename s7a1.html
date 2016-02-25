@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>
+	S7A1
+	</title>
+		 <script type="text/javascript">
+	 function change()
+	 {
+	 	var a = document.getElementById("like");
+	 	if(a.value=="LIKE")
+	 	{
+	 		a.value="UNLIKE";
+		    a.style.color="yellow";
+	 	}
+	 	else if(a.value=="UNLIKE")
+	 		{
+	 			a.value="LIKE";
+	 			a.style.color="white";
+	 		}
+	 }
+	 </script>
+	<style type="text/css">   
+	.point 
+{	
+font-size:20pt; 
+cursor:pointer;
+text-decoration:none;
+border-radius: 13px;
+background-color: red;
+color: white;
+padding: 8px;
+}
+	</style>
+</head>
+<body>
+
+	<br><br>
+	 <div id ="main">
+	 <input class="point" type="button" value="LIKE" id="like" onclick="change();"/>
+	 </div>
+
+</body>
+</html>
